@@ -1,0 +1,7 @@
+# IDE files:
+.idea/
+.vs/
+*.user
+
+# MAX files:
+Downloads/
