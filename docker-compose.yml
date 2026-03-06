@@ -1,7 +1,7 @@
 services:
   max-in-browser:
     build: .
-    image: local/max-in-browser:latest
+    image: ghcr.io/y0ung3r/isolated-max:1.0.0
     container_name: max-in-browser
     ports:
       - "8080:8080" # noVNC
