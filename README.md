@@ -59,3 +59,7 @@ Go to the browser at the URL:
 ```
 https://localhost:8080/
 ```
+
+### Licence
+The project is distributed under the MIT license.
+MAX Messenger is a product of Communication Platform LLC (ООО «Коммуникационная платформа»).
