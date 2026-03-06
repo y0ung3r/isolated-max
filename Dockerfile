@@ -1,5 +1,7 @@
 ﻿FROM ubuntu:22.04
 
+LABEL org.opencontainers.image.source=https://github.com/y0ung3r/isolated-max
+
 ARG DEBIAN_FRONTEND=noninteractive
 ENV LANG=C.UTF-8
 ENV LC_ALL=C.UTF-8
