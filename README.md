@@ -4,7 +4,7 @@ Allows you to run MAX Messenger in an isolated Docker container!
 ### Supported modes
 #### Browser
 The current build only supports running MAX Messenger in a browser using the `noVNC` utility:
-![img.png](assets/browser.png)
+<img width="686" height="513" alt="Demonstration" src="https://github.com/user-attachments/assets/90a0caec-d584-492b-a3ff-b045d1fa4e71" />
 
 #### Desktop (Linux)
 We do not yet support the ability to launch MAX Messenger directly in the host system. 
