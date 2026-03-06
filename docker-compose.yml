@@ -12,7 +12,7 @@ services:
       - ./Downloads:/root/Music:rw
       - ./Downloads:/root/Pictures:rw
       - ./Downloads:/root/Videos:rw
-    shm_size: '2gb'
+    shm_size: '1gb'
     ipc: host
     privileged: false
     restart: unless-stopped
