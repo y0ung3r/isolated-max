@@ -1,0 +1,18 @@
+services:
+  max-in-browser:
+    build: .
+    image: local/max-in-browser:latest
+    container_name: max-in-browser
+    ports:
+      - "8080:8080" # noVNC
+      - "5900:5900" # VNC
+    volumes:
+      - ./Downloads:/root/Downloads:rw
+      - ./Downloads:/root/Documents:rw
+      - ./Downloads:/root/Music:rw
+      - ./Downloads:/root/Pictures:rw
+      - ./Downloads:/root/Videos:rw
+    shm_size: '2gb'
+    ipc: host
+    privileged: false
+    restart: unless-stopped
