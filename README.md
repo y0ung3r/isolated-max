@@ -1,6 +1,9 @@
 ## isolated-max
 Allows you to run MAX Messenger in an isolated Docker container!
 
+### Motivation
+For fun <3
+
 ### Features
 | **Environment**   | **Feature**                        | **Implementation Status** |
 |:------------------|------------------------------------|:-------------------------:|
@@ -42,6 +45,8 @@ Go to the browser at the URL:
 https://localhost:8080/
 ```
 
+After launching the application, you will be prompted to create a password for the secure storage. You can skip this step by leaving the fields blank. Alternatively, you can create a password that will be requested each time you open the application.
+
 ### Build
 If you want to build your own image, follow the steps below.
 
@@ -59,6 +64,9 @@ Go to the browser at the URL:
 ```
 https://localhost:8080/
 ```
+
+### Downloading files and media
+All files are placed in the `Downloads` folder, which is located with `docker-compose.yml`
 
 ### Licence
 The project is distributed under the MIT license.
