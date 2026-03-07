@@ -22,7 +22,7 @@ The current build only supports rendering MAX Messenger in a browser using the `
 
 #### Desktop
 We do not yet support the ability to render isolated MAX Messenger directly in the host system. 
-However, there is an excellent alternative that inspired us to launch the application in a browser: https://github.com/Lumetas/max-docker. Thank you, @Lumetas!
+However, there is an excellent alternative that inspired us to launch the application in a browser: https://github.com/Lumetas/max-docker. Thank you, [@Lumetas](https://github.com/Lumetas)!
 
 ### Prerequisites
 * Docker
