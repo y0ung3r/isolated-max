@@ -1,0 +1,18 @@
+services:
+  max:
+    build: .
+    image: ghcr.io/y0ung3r/isolated-max-windows:1.0.0
+    container_name: max-windows
+    environment:
+      - DISPLAY=:0
+      - WAYLAND_DISPLAY=wayland-0
+      - XDG_RUNTIME_DIR=/mnt/wslg
+      - PULSE_SERVER=unix:/mnt/wslg/PulseServer
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /mnt/wslg:/mnt/wslg
+      - ./Downloads:/root/Downloads:rw
+    shm_size: '1gb'
+    ipc: host
+    privileged: false
+    restart: no
